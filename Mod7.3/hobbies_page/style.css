@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    max-width: 100%;
+  }
+
+html {
+    font-size: 20px;
+}
+  
+  body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+  }
+  
+  #showcase{
+    background: url('hobby_pics/sandiego.jpg');
+    background-position: center;
+    width: 2600px;
+    height: 1000px;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    line-height:1.2;
+  }
+  
+  #showcase p{
+    font-size: 20px; 
+  }
+  
+  #section-a{
+    padding:20px;
+    background:#fff;
+    color:#926239;
+    text-align:center;
+  }
+  #section-a{
+    background-image:url('hobby_pics/TheanoHiking.jpeg');
+    background-size:cover;
+    background-position:center;
+    width: 2600px;
+    height: 1000px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+
+  #section-b{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+  }
+
+  #section-b{
+    background-image:url('hobby_pics/hiking.jpg');
+    background-size:cover;
+    background-position:center;
+    width: 2600px;
+    height: 1000px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #section-c{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+  }
+
+  #section-c{
+    background-image:url('hobby_pics/fishing.jpg');
+    background-size:cover;
+    background-position:center;
+    width: 2600px;
+    height: 1000px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+
+
+  
+  
