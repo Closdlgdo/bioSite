@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: url('./images/Screen Shot 2022-04-28 at 8.20.12 PM.png');
+    background-position: 0 30px;
+    width: 1800px;
+    height: auto;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 5rem auto;
+    padding:0 1rem;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5.3rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.image {
+    margin-top: 16rem;
+    margin-top: 5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #c78849;
+    line-height: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-size-adjust: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    background: #f6f6f6;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #c78849;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #c78849;
+}
